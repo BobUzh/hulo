@@ -10,7 +10,7 @@ const Header = () => {
                     <div className="logo">
                         <Link href="/">
                             <Image
-                                src="/logo-light.png"
+                                src="logo-light.png"
                                 width={92}
                                 height={15}
                                 alt=""

@@ -125,7 +125,7 @@ const Service = () => {
                                         <div className="portfolio__img">
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/sm-3.png"
+                                                    src="sm-3.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"
@@ -133,7 +133,7 @@ const Service = () => {
                                             </div>
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/s3.png"
+                                                    src="s3.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"
@@ -141,7 +141,7 @@ const Service = () => {
                                             </div>
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/sm-1.png"
+                                                    src="sm-1.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"
@@ -204,7 +204,7 @@ const Service = () => {
                                         <div className="portfolio__img">
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/a3.png"
+                                                    src="a3.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"
@@ -212,7 +212,7 @@ const Service = () => {
                                             </div>
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/n1.png"
+                                                    src="n1.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"
@@ -220,7 +220,7 @@ const Service = () => {
                                             </div>
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/s3.png"
+                                                    src="s3.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"
@@ -282,7 +282,7 @@ const Service = () => {
                                         <div className="portfolio__img">
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/b1.png"
+                                                    src="b1.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"
@@ -290,7 +290,7 @@ const Service = () => {
                                             </div>
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/b2.png"
+                                                    src="b2.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"
@@ -298,7 +298,7 @@ const Service = () => {
                                             </div>
                                             <div className="img__wrap">
                                                 <Image
-                                                    src="/b3.png"
+                                                    src="b3.png"
                                                     width={41}
                                                     height={41}
                                                     alt="#"

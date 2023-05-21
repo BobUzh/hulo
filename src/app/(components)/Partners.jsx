@@ -12,7 +12,7 @@ const Partners = ({ class_name }) => {
                     className="img-dark"
                     width={710}
                     height={112}
-                    src="/c1-dark.png"
+                    src="c1-dark.png"
                     alt="#"
                 />
             </a>
@@ -25,7 +25,7 @@ const Partners = ({ class_name }) => {
                     className="img-dark"
                     width={637}
                     height={80}
-                    src="/c2-dark.png"
+                    src="c2-dark.png"
                     alt="#"
                 />
             </a>
@@ -38,7 +38,7 @@ const Partners = ({ class_name }) => {
                     className="/img-dark"
                     width={436}
                     height={112}
-                    src="/c3-dark.png"
+                    src="c3-dark.png"
                     alt="#"
                 />
             </a>
@@ -52,7 +52,7 @@ const Partners = ({ class_name }) => {
                     className="/img-light"
                     width={115}
                     height={18}
-                    src="/c1-light.png"
+                    src="c1-light.png"
                     alt="#"
                 />
             </a>
@@ -65,7 +65,7 @@ const Partners = ({ class_name }) => {
                     className="img-light"
                     width={103}
                     height={13}
-                    src="/c2-light.png"
+                    src="c2-light.png"
                     alt="#"
                 />
             </a>
@@ -78,7 +78,7 @@ const Partners = ({ class_name }) => {
                     className="img-light"
                     width={71}
                     height={18}
-                    src="/c3-light.png"
+                    src="c3-light.png"
                     alt="#"
                 />
             </a>

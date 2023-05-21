@@ -13,7 +13,7 @@ const Featured = () => {
                             <div className="featured__project-item">
                                 <div className="featured__project-img">
                                     <Image
-                                        src="/a1.png"
+                                        src="a1.png"
                                         width={516}
                                         height={400}
                                         alt=""
@@ -70,7 +70,7 @@ const Featured = () => {
                                     <Image
                                         width={516}
                                         height={503}
-                                        src="/a2.png"
+                                        src="a2.png"
                                         alt=""
                                     />
                                     <a
@@ -122,7 +122,7 @@ const Featured = () => {
                             <div className="featured__project-item">
                                 <div className="featured__project-img">
                                     <Image
-                                        src="/a3.png"
+                                        src="a3.png"
                                         width={516}
                                         height={503}
                                         alt=""
@@ -171,7 +171,7 @@ const Featured = () => {
                             <div className="featured__project-item">
                                 <div className="featured__project-img">
                                     <Image
-                                        src="/a4.png"
+                                        src="a4.png"
                                         width={516}
                                         height={400}
                                         alt=""

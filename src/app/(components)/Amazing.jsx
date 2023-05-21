@@ -73,14 +73,14 @@ const Amazing = () => {
                                         className="slide-desc"
                                         width={1141}
                                         height={347}
-                                        src="/s1.png"
+                                        src="s1.png"
                                         alt=""
                                     />
                                     <Image
                                         className="slide-m"
                                         width={288}
                                         height={192}
-                                        src="/sm-1.png"
+                                        src="sm-1.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -97,14 +97,14 @@ const Amazing = () => {
                                         className="slide-desc"
                                         width={1141}
                                         height={347}
-                                        src="/s2.png"
+                                        src="s2.png"
                                         alt=""
                                     />
                                     <Image
                                         className="slide-m"
                                         width={288}
                                         height={192}
-                                        src="/sm-2.png"
+                                        src="sm-2.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -121,14 +121,14 @@ const Amazing = () => {
                                         className="slide-desc"
                                         width={1141}
                                         height={347}
-                                        src="/s3.png"
+                                        src="s3.png"
                                         alt=""
                                     />
                                     <Image
                                         className="slide-m"
                                         width={288}
                                         height={192}
-                                        src="/sm-3.png"
+                                        src="sm-3.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -145,14 +145,14 @@ const Amazing = () => {
                                         className="slide-desc"
                                         width={1141}
                                         height={347}
-                                        src="/n2.png"
+                                        src="n2.png"
                                         alt=""
                                     />
                                     <Image
                                         className="slide-m"
                                         width={288}
                                         height={192}
-                                        src="/sm-4.png"
+                                        src="sm-4.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -169,14 +169,14 @@ const Amazing = () => {
                                         className="slide-desc"
                                         width={1141}
                                         height={347}
-                                        src="/n1.png"
+                                        src="n1.png"
                                         alt=""
                                     />
                                     <Image
                                         className="slide-m"
                                         width={288}
                                         height={192}
-                                        src="/sm-4.png"
+                                        src="sm-4.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -198,7 +198,7 @@ const Amazing = () => {
                                 className="slide-m"
                                 width={288}
                                 height={192}
-                                src="/sm-3.png"
+                                src="sm-3.png"
                                 alt=""
                             />
                             <div className="project">

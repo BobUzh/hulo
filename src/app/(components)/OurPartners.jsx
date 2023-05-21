@@ -14,14 +14,14 @@ const OurPartners = () => {
                                 className="img-dark"
                                 width={574}
                                 height={97}
-                                src="/gost-dark.png"
+                                src="gost-dark.png"
                                 alt="#"
                             />
                             <Image
                                 className="img-light"
                                 width={574}
                                 height={97}
-                                src="/gost-light.png"
+                                src="gost-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -41,14 +41,14 @@ const OurPartners = () => {
                                 className="img-dark"
                                 width={200}
                                 height={100}
-                                src="/post-dark.png"
+                                src="post-dark.png"
                                 alt="#"
                             />
                             <Image
                                 className="img-light"
                                 width={200}
                                 height={100}
-                                src="/post-light.png"
+                                src="post-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -68,14 +68,14 @@ const OurPartners = () => {
                                 className="img-dark"
                                 width={200}
                                 height={100}
-                                src="/sun-dark.png"
+                                src="sun-dark.png"
                                 alt="#"
                             />
                             <Image
                                 className="img-light"
                                 width={200}
                                 height={100}
-                                src="/sun-light.png"
+                                src="sun-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -95,14 +95,14 @@ const OurPartners = () => {
                                 className="img-dark"
                                 width={200}
                                 height={100}
-                                src="/mor-dark.png"
+                                src="mor-dark.png"
                                 alt="#"
                             />
                             <Image
                                 className="img-light"
                                 width={200}
                                 height={100}
-                                src="/mor-light.png"
+                                src="mor-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -122,14 +122,14 @@ const OurPartners = () => {
                                 className="img-dark"
                                 width={200}
                                 height={100}
-                                src="/altt-dark.png"
+                                src="altt-dark.png"
                                 alt="#"
                             />
                             <Image
                                 className="img-light"
                                 width={200}
                                 height={100}
-                                src="/altt-light.png"
+                                src="altt-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -149,14 +149,14 @@ const OurPartners = () => {
                                 className="img-dark"
                                 width={200}
                                 height={100}
-                                src="/lawson-dark.png"
+                                src="lawson-dark.png"
                                 alt="#"
                             />
                             <Image
                                 className="img-light"
                                 width={200}
                                 height={100}
-                                src="/lawson-light.png"
+                                src="lawson-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">

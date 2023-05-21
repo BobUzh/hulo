@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Featured = () => {
     return (
         <section className="section featured">
@@ -10,7 +12,12 @@ const Featured = () => {
                         <div className="featured__project-wrap">
                             <div className="featured__project-item">
                                 <div className="featured__project-img">
-                                    <img src="a1.png" alt="" />
+                                    <Image
+                                        src="/a1.png"
+                                        width={516}
+                                        height={400}
+                                        alt=""
+                                    />
                                     <a
                                         href="http://florentinekitchenknives.com"
                                         rel="nofollow"
@@ -60,7 +67,12 @@ const Featured = () => {
                             </div>
                             <div className="featured__project-item">
                                 <div className="featured__project-img">
-                                    <img src="a2.png" alt="" />
+                                    <Image
+                                        width={516}
+                                        height={503}
+                                        src="/a2.png"
+                                        alt=""
+                                    />
                                     <a
                                         href="https://www.jclutz.com/products/sneakers"
                                         rel="nofollow"
@@ -109,7 +121,12 @@ const Featured = () => {
                         <div className="featured__project-wrap">
                             <div className="featured__project-item">
                                 <div className="featured__project-img">
-                                    <img src="a3.png" alt="" />
+                                    <Image
+                                        src="/a3.png"
+                                        width={516}
+                                        height={503}
+                                        alt=""
+                                    />
                                     <a href="http://sundaysounds.com">
                                         <div className="btn">
                                             View Project
@@ -153,7 +170,12 @@ const Featured = () => {
                             </div>
                             <div className="featured__project-item">
                                 <div className="featured__project-img">
-                                    <img src="a4.png" alt="" />
+                                    <Image
+                                        src="/a4.png"
+                                        width={516}
+                                        height={400}
+                                        alt=""
+                                    />
                                     <a href="https://heads-of-state.com/">
                                         <div className="btn">
                                             View Project

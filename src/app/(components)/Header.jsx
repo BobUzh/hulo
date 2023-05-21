@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Partners from "./Partners";
+import Image from "next/image";
 
 const Header = () => {
     return (
@@ -8,7 +9,12 @@ const Header = () => {
                 <div className="header__wrap">
                     <div className="logo">
                         <Link href="/">
-                            <img src="logo-light.png" alt="" />
+                            <Image
+                                src="/logo-light.png"
+                                width={92}
+                                height={15}
+                                alt=""
+                            />
                         </Link>
                     </div>
                     <nav className="nav">

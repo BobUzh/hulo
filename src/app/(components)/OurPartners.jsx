@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const OurPartners = () => {
     return (
         <section className="section partners">
@@ -8,14 +10,18 @@ const OurPartners = () => {
                     </div>
                     <div className="partners__list">
                         <div className="partners__item">
-                            <img
+                            <Image
                                 className="img-dark"
-                                src="gost-dark.png"
+                                width={574}
+                                height={97}
+                                src="/gost-dark.png"
                                 alt="#"
                             />
-                            <img
+                            <Image
                                 className="img-light"
-                                src="gost-light.png"
+                                width={574}
+                                height={97}
+                                src="/gost-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -31,14 +37,18 @@ const OurPartners = () => {
                             </div>
                         </div>
                         <div className="partners__item">
-                            <img
+                            <Image
                                 className="img-dark"
-                                src="post-dark.png"
+                                width={200}
+                                height={100}
+                                src="/post-dark.png"
                                 alt="#"
                             />
-                            <img
+                            <Image
                                 className="img-light"
-                                src="post-light.png"
+                                width={200}
+                                height={100}
+                                src="/post-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -54,14 +64,18 @@ const OurPartners = () => {
                             </div>
                         </div>
                         <div className="partners__item">
-                            <img
+                            <Image
                                 className="img-dark"
-                                src="sun-dark.png"
+                                width={200}
+                                height={100}
+                                src="/sun-dark.png"
                                 alt="#"
                             />
-                            <img
+                            <Image
                                 className="img-light"
-                                src="sun-light.png"
+                                width={200}
+                                height={100}
+                                src="/sun-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -77,14 +91,18 @@ const OurPartners = () => {
                             </div>
                         </div>
                         <div className="partners__item">
-                            <img
+                            <Image
                                 className="img-dark"
-                                src="mor-dark.png"
+                                width={200}
+                                height={100}
+                                src="/mor-dark.png"
                                 alt="#"
                             />
-                            <img
+                            <Image
                                 className="img-light"
-                                src="mor-light.png"
+                                width={200}
+                                height={100}
+                                src="/mor-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -100,14 +118,18 @@ const OurPartners = () => {
                             </div>
                         </div>
                         <div className="partners__item">
-                            <img
+                            <Image
                                 className="img-dark"
-                                src="altt-dark.png"
+                                width={200}
+                                height={100}
+                                src="/altt-dark.png"
                                 alt="#"
                             />
-                            <img
+                            <Image
                                 className="img-light"
-                                src="altt-light.png"
+                                width={200}
+                                height={100}
+                                src="/altt-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">
@@ -123,14 +145,18 @@ const OurPartners = () => {
                             </div>
                         </div>
                         <div className="partners__item">
-                            <img
+                            <Image
                                 className="img-dark"
-                                src="lawson-dark.png"
+                                width={200}
+                                height={100}
+                                src="/lawson-dark.png"
                                 alt="#"
                             />
-                            <img
+                            <Image
                                 className="img-light"
-                                src="lawson-light.png"
+                                width={200}
+                                height={100}
+                                src="/lawson-light.png"
                                 alt="#"
                             />
                             <div className="partners__numeric">

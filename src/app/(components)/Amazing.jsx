@@ -1,4 +1,5 @@
-import Partners from "../Partners";
+import Image from "next/image";
+import Partners from "./Partners";
 
 const Amazing = () => {
     return (
@@ -68,14 +69,18 @@ const Amazing = () => {
                             <div className="swiper-wrapper">
                                 {/* <!-- Slides --> */}
                                 <div className="swiper-slide">
-                                    <img
+                                    <Image
                                         className="slide-desc"
-                                        src="s1.png"
+                                        width={1141}
+                                        height={347}
+                                        src="/s1.png"
                                         alt=""
                                     />
-                                    <img
+                                    <Image
                                         className="slide-m"
-                                        src="sm-1.png"
+                                        width={288}
+                                        height={192}
+                                        src="/sm-1.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -88,14 +93,18 @@ const Amazing = () => {
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
-                                    <img
+                                    <Image
                                         className="slide-desc"
-                                        src="s2.png"
+                                        width={1141}
+                                        height={347}
+                                        src="/s2.png"
                                         alt=""
                                     />
-                                    <img
+                                    <Image
                                         className="slide-m"
-                                        src="sm-2.png"
+                                        width={288}
+                                        height={192}
+                                        src="/sm-2.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -108,14 +117,18 @@ const Amazing = () => {
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
-                                    <img
+                                    <Image
                                         className="slide-desc"
-                                        src="s3.png"
+                                        width={1141}
+                                        height={347}
+                                        src="/s3.png"
                                         alt=""
                                     />
-                                    <img
+                                    <Image
                                         className="slide-m"
-                                        src="sm-3.png"
+                                        width={288}
+                                        height={192}
+                                        src="/sm-3.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -128,14 +141,18 @@ const Amazing = () => {
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
-                                    <img
+                                    <Image
                                         className="slide-desc"
-                                        src="n2.png"
+                                        width={1141}
+                                        height={347}
+                                        src="/n2.png"
                                         alt=""
                                     />
-                                    <img
+                                    <Image
                                         className="slide-m"
-                                        src="sm-4.png"
+                                        width={288}
+                                        height={192}
+                                        src="/sm-4.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -148,14 +165,18 @@ const Amazing = () => {
                                     </div>
                                 </div>
                                 <div className="swiper-slide">
-                                    <img
+                                    <Image
                                         className="slide-desc"
-                                        src="n1.png"
+                                        width={1141}
+                                        height={347}
+                                        src="/n1.png"
                                         alt=""
                                     />
-                                    <img
+                                    <Image
                                         className="slide-m"
-                                        src="sm-4.png"
+                                        width={288}
+                                        height={192}
+                                        src="/sm-4.png"
                                         alt=""
                                     />
                                     <div className="project">
@@ -173,7 +194,13 @@ const Amazing = () => {
                     </div>
                     <div className="amazing__main-banner">
                         <div className="amazing__banner-wrapper">
-                            <img className="slide-m" src="sm-3.png" alt="" />
+                            <Image
+                                className="slide-m"
+                                width={288}
+                                height={192}
+                                src="/sm-3.png"
+                                alt=""
+                            />
                             <div className="project">
                                 <div className="project__subtitle">
                                     <p>project name:</p>

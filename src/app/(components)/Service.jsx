@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const Service = () => {
     return (
         <section id="service" className="section services">
@@ -122,13 +124,28 @@ const Service = () => {
                                         </div>
                                         <div className="portfolio__img">
                                             <div className="img__wrap">
-                                                <img src="sm-3.png" alt="#" />
+                                                <Image
+                                                    src="/sm-3.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                             <div className="img__wrap">
-                                                <img src="s3.png" alt="#" />
+                                                <Image
+                                                    src="/s3.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                             <div className="img__wrap">
-                                                <img src="sm-1.png" alt="#" />
+                                                <Image
+                                                    src="/sm-1.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                         </div>
                                     </div>
@@ -186,13 +203,28 @@ const Service = () => {
                                         </div>
                                         <div className="portfolio__img">
                                             <div className="img__wrap">
-                                                <img src="a3.png" alt="#" />
+                                                <Image
+                                                    src="/a3.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                             <div className="img__wrap">
-                                                <img src="n1.png" alt="#" />
+                                                <Image
+                                                    src="/n1.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                             <div className="img__wrap">
-                                                <img src="s3.png" alt="#" />
+                                                <Image
+                                                    src="/s3.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                         </div>
                                     </div>
@@ -249,13 +281,28 @@ const Service = () => {
                                         </div>
                                         <div className="portfolio__img">
                                             <div className="img__wrap">
-                                                <img src="b1.png" alt="#" />
+                                                <Image
+                                                    src="/b1.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                             <div className="img__wrap">
-                                                <img src="b2.png" alt="#" />
+                                                <Image
+                                                    src="/b2.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                             <div className="img__wrap">
-                                                <img src="b3.png" alt="#" />
+                                                <Image
+                                                    src="/b3.png"
+                                                    width={41}
+                                                    height={41}
+                                                    alt="#"
+                                                />
                                             </div>
                                         </div>
                                     </div>

@@ -6,6 +6,7 @@ import {
     DiagonalArrowWithBorderDown,
     Quotes,
 } from "../(svg)/Quotes";
+import Image from "next/image";
 
 const feedbacks = [
     {
@@ -13,7 +14,7 @@ const feedbacks = [
             "My team and I love working with hulo! We’ve had the privilege of working  together",
         secondText:
             "on  both small and big projects and each time it is a great experience! Strong communication, top-quality work, and just a great team to work hand-in-hand with. You’ll be making a mistake if you DON’T reach out to hulo about your next Squarespace or Shopify project.",
-        clientImg: "292504750_10166208867500307_9049691559420820927_n.jpg",
+        clientImg: "/292504750_10166208867500307_9049691559420820927_n.jpg",
         clientName: "Cody Juhnke",
         clientSubtitle: "Founder of The Ghost Company",
     },
@@ -22,7 +23,7 @@ const feedbacks = [
             "In an industry where developers tend to disappear mid-project... hulo.dev has been",
         secondText:
             "our reliable  development team to get the job done. They are prompt, easy to work with, and have a great depth of knowledge over general development, as well as those specific to Squarespace, Shopify, and DevOps. We have been really happy with their work product.",
-        clientImg: "image2.png",
+        clientImg: "/image2.png",
         clientName: "Kate Bosse",
         clientSubtitle: "Owner/Creative Director at Mor Creative",
     },
@@ -31,7 +32,7 @@ const feedbacks = [
             "Working with hulo.dev has been to a crucial part of building my design practice",
         secondText:
             "and allowing me to offer my clients agency level websites.  Their custom coding skills for Squarespace are the best in the industry.",
-        clientImg: "image.png",
+        clientImg: "/image.png",
         clientName: "Joel Blair",
         clientSubtitle: "director at Detraform",
     },
@@ -40,7 +41,7 @@ const feedbacks = [
             "I can’t recommend hulo enough. They are so wonderful to work with. Pavlo is never",
         secondText:
             "overwhelmed by my crazy requests and gives helpful guidance on improving the UX experience for our clients. Their communication is outstanding, and they consistently overdeliver. I am so grateful to have found hulo!",
-        clientImg: "i.png",
+        clientImg: "/i.png",
         clientName: "Suzie Consoli",
         clientSubtitle: "Founder of Lawson House",
     },
@@ -88,7 +89,9 @@ const Feedback = () => {
                                         <div className="feedbacks__client">
                                             <div className="feedbacks__client-wrap">
                                                 <div className="feedbacks__client-img">
-                                                    <img
+                                                    <Image
+                                                        width={77}
+                                                        height={77}
                                                         src={
                                                             feedbacks[index]
                                                                 .clientImg

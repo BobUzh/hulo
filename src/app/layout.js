@@ -1,6 +1,6 @@
 import './globals.css';
 // import './(style)/style.scss';
-import "./legasy.scss";
+import "./legasy1.css";
 
 import { Inter } from 'next/font/google';
 import Header from './(components)/Header';
